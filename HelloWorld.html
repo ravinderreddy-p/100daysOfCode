@@ -1,3 +1,16 @@
+<!--Create style attributes using CSS -->
+<!-- create a css class to apply to html elements-->
+<style>
+    
+    h1{
+        color: darkgreen;
+        font-size: 30px;
+        font-family: sans-serif;
+    }
+    .color-text{
+        color: goldenrod;
+    }
+</style>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -8,7 +21,7 @@
         <!--Basic Hello World in Header1-->
         <h1 id="HelloWorld">Hello World</h1>
         <!--Paragraph writing as below-->
-        <p>This is a web page.As part of #100daysOfCode resume the work again.</p>
+        <p class="color-text">This is a web page.As part of #100daysOfCode resume the work again.</p>
         <!--ordered list example-->
         <ol>
             <li>Number one on the list</li>
@@ -20,7 +33,9 @@
         <!--anchor elements link to content of your web page. href attribute we can give the link-->
         <a href="http://freecatphotoapp.com" target="_blank">Cat Photos</a>
         <!--anchor element also link to internal sections of same page-->
+        <div>
         <a href="#HelloWorld">Link to Hello World</a>
+        </div>
         <!--place holder for text and nest it in form-->
         <div>
             <form action="Submit the form">
@@ -32,5 +47,6 @@
                 <input id="indoor" type="radio" name="indoor-outdoor">outdoor
             </label>
         </div>
+        <h2 style="color: blue;">Day2 of 100daysOfCode Challenge</h2>
     </body>
 </html>
