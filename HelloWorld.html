@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="https://fonts.google.com/css?family=Lobster" type="text/css">
 <!--Create style attributes using CSS -->
 <!-- create a css class to apply to html elements-->
 <style>
@@ -9,6 +10,21 @@
     }
     .color-text{
         color: goldenrod;
+    }
+    h2{
+        font-family: Lobster;
+    }
+    .small-image{
+        width: 200px;
+    }
+    .thin-green-border{
+        border-color: green;
+        border-width: 10px;
+        border-style: solid;
+        border-radius: 100px;
+    }
+    .silver-background{
+        background-color: silver;
     }
 </style>
 <!DOCTYPE html>
@@ -29,7 +45,7 @@
             <li>Number Three</li>
         </ol>
         <!--display a cat from FCC along with ALT attribute-->
-        <img src="https://bit.ly/fcc-relaxing-cat" alt="Author standing on a beach with two thumbs up.">
+        <img class="small-image thin-green-border" src="https://bit.ly/fcc-relaxing-cat" alt="Author standing on a beach with two thumbs up.">
         <!--anchor elements link to content of your web page. href attribute we can give the link-->
         <a href="http://freecatphotoapp.com" target="_blank">Cat Photos</a>
         <!--anchor element also link to internal sections of same page-->
@@ -37,7 +53,8 @@
         <a href="#HelloWorld">Link to Hello World</a>
         </div>
         <!--place holder for text and nest it in form-->
-        <div>
+        <div class="silver-background">
+            <br>
             <form action="Submit the form">
                 <input type="place holder for text" required>
                 <button type="submit">Submit Form</button>
