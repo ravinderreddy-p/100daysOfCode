@@ -2,6 +2,9 @@
 <!--Create style attributes using CSS -->
 <!-- create a css class to apply to html elements-->
 <style>
+    body{
+        background-color: azure;
+    }
     
     h1{
         color: darkgreen;
@@ -26,6 +29,34 @@
     .silver-background{
         background-color: silver;
     }
+    .injected-text{
+        margin-bottom: -25px;
+        text-align: center;
+    }
+    .box{
+        border-style: solid;
+        border-color: black;
+        border-width: 5px;
+        text-align: center;
+    }
+    .yellow-box{
+        background-color: yellow;
+        padding: 10px;
+    }
+    .red-box{
+        background-color: red;
+        color: #fff;
+        padding: 20px;
+    }
+    .blue-box{
+        background-color: blue;
+        color: #fff;
+        padding: 10px 20px 10px 20px;
+
+    }
+    #link{
+        background-color: green;
+    }
 </style>
 <!DOCTYPE html>
 <html lang="en">
@@ -49,7 +80,7 @@
         <!--anchor elements link to content of your web page. href attribute we can give the link-->
         <a href="http://freecatphotoapp.com" target="_blank">Cat Photos</a>
         <!--anchor element also link to internal sections of same page-->
-        <div>
+        <div id="link">
         <a href="#HelloWorld">Link to Hello World</a>
         </div>
         <!--place holder for text and nest it in form-->
@@ -65,5 +96,10 @@
             </label>
         </div>
         <h2 style="color: blue;">Day2 of 100daysOfCode Challenge</h2>
+        <h5 class="injected-text">margin</h5>
+        <div class="box yellow-box">
+            <h5 class="box red-box">padding</h5>
+            <h5 class="box blue-box">padding</h5>
+        </div>
     </body>
 </html>
