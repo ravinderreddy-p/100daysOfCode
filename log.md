@@ -35,3 +35,9 @@ Day 6: November 5, 2018.
 Today's Progress: Continue working on Tribute page.
 
 Thoughts: Exploring more options using Bootstrap and JQuery but later realize to use only with HTML and CSS.
+
+Day 7: November 8, 2018.
+
+Today's Progress: Continue working on Tribute page. Learned Div and fonts.
+
+Thoughts: It's good learning today by doing project.
