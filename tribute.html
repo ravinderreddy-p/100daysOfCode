@@ -5,15 +5,28 @@
     }
     #img-div{
         background-color: white;
-        padding-top: 40px;
-        padding-left: 40px;
-        padding-right: 20px;
-        padding-bottom: 20px;
+        padding-top: 50px;
+        padding-left: 50px;
+        padding-right: 50px;
+        padding-bottom: 1px;
+        margin: 1%;
     }
     #image{
         display: block;
         margin-left: auto;
         margin-right: auto;
+    }
+    #listOfTimeLines{
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+    #list{
+        text-align: center;
+        list-style:circle;
+        margin: 0em;
+        padding: 0em;
     }
     .font-center{
         text-align: center;
@@ -45,9 +58,12 @@
             <img id="image" src="https://c2.staticflickr.com/4/3689/10613180113_fdf7bcd316_b.jpg" alt="No-IMAGE to Display">
             <p id="tribute-img">Dr. Norman Borlaug, second from left, trains biologists in Mexico on how to increase wheat yields - part of his life-long war on hunger.</p>
         </div>
-        <div id="listOfTimeLines">
-            <h1>Here's a time line of Dr.Borlaug's life:</h1>
-            <li>
+
+        <div style="width: 100%;overflow:auto">
+            <div style="float:left; width=80%"></div>
+            <div style="float:right">
+            <h2>Here's a time line of Dr.Borlaug's life:</h1>
+            <li id="list">
                 <ul><b>1914</b> - Born in Cresco, Lowa</ul>
                 <ul><b>1933</b> - Leaves his family's farm to attend the University of Minnesota,<br>thanks to a Depression era program known as the <q>National Youth Administration</q> </ul>
                 <ul><b>1935</b> - Has to stop school and save up more money. Works in the Civilian Conservation Corps, helping starving Americans. "I saw how food changed them", he said.</ul>
@@ -65,6 +81,7 @@
                 <ul><b>2005</b> - states <q>we will have to double the world food supply by 2050." Argues that genetically modified crops are the only way we can meet the demand, as we run out of arable land. Says that GM crops are not inherently dangerous because "we've been genetically modifying plants and animals for a long time. Long before we called it science, people were selecting the best breeds.</q></ul>
                 <ul><b>2009</b> - dies at the age of 95.</ul>
             </li>
+        </div>
         </div>
         <p><blockquote>Borlaug's life and achievement are testimony to the far-reaching contribution that one man's towering intellect, persistence and scientific vision can make to human peace and progress</blockquote> -- Indian Prime Minister Manmohan Singh</p>
         <p id="tribute-info">If you have time, you should read more about this incredible human being on his<a id="tribute-link" href="#" target="_blank">Wikipedia Entry</a></p>
