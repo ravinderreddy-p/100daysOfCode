@@ -41,3 +41,9 @@ Day 7: November 8, 2018.
 Today's Progress: Continue working on Tribute page. Learned Div and fonts.
 
 Thoughts: It's good learning today by doing project.
+
+Day 8: November 13,2018.
+
+Today's Progress: Continue working on Tribute page. Spent a lot of time on UL alignment. fixed margin for image division.
+
+Thoughts: NA
