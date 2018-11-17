@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Division for page split</title>
+        <style>
+            body{
+                font-family: Arial, Helvetica, sans-serif;
+                color: white;
+            }    
+            .split{
+                height: 100%;
+                width: 50%;
+                position: fixed;
+                z-index: 1;
+                top: 0;
+                overflow-x: hidden;
+                padding-top: 20px;
+            }
+            .left{
+                right: 0;
+                background-color: red;
+            }
+            .centered{
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                text-align: center;
+            }
+            .right{
+                right: 0;
+                background-color:green;
+            }
+        
+        </style>
+    </head>
+    <body>
+        <div class="split left">
+            <div class="centered">
+                <h2>Centered split</h2>
+                <p>Lets verify it</p>
+            </div>
+        </div>
+        <div class="split right">
+            <div class="centered">
+                <h2>2nd centered split</h2>
+                <p>lets verify again</p>
+            </div>
+            
+        </div>
+    </body>
+</html>
