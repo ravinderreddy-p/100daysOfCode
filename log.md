@@ -47,3 +47,9 @@ Day 8: November 13,2018.
 Today's Progress: Continue working on Tribute page. Spent a lot of time on UL alignment. fixed margin for image division.
 
 Thoughts: NA
+
+Day 9: November 17,2018.
+
+Today's Progress: Worked on HTML input types, setup python and written Helloworld.py program.
+
+Thoughts: Attended Katathon (Freecodecamp theme) meetup and boosted me this event.
