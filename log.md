@@ -53,3 +53,15 @@ Day 9: November 17,2018.
 Today's Progress: Worked on HTML input types, setup python and written Helloworld.py program.
 
 Thoughts: Attended Katathon (Freecodecamp theme) meetup and boosted me this event.
+
+Day 9: November 18,2018.
+
+Today's Progress: Gone through videos on HTML5, CSS2 on FrescoPlay.
+
+Thoughts: No coding day 
+
+Day 10: November 19,2018.
+
+Today's Prgoress: Set up PostgreSQL database in my system and gone through Django
+
+Thoughts: Polyglot Devs London - going to be part of this team to work on their project.
