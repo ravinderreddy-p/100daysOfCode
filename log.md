@@ -65,3 +65,9 @@ Day 10: November 19,2018.
 Today's Prgoress: Set up PostgreSQL database in my system and gone through Django
 
 Thoughts: Polyglot Devs London - going to be part of this team to work on their project.
+
+Day 11: November 20,2018.
+
+Today's Progress: Gone Through videos on Python Django, installed PSQL.
+
+Thoughts: PSQL created locally and gone through CSDOJO videos on DJango. Recharge for next day. 
