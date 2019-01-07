@@ -71,3 +71,9 @@ Day 11: November 20,2018.
 Today's Progress: Gone Through videos on Python Django, installed PSQL.
 
 Thoughts: PSQL created locally and gone through CSDOJO videos on DJango. Recharge for next day. 
+
+Day 12 : January 07,2019.
+
+Today's Progress : WebHDFS Java Project under progress. This project will push and pull the files b/w hadoop and HFG.
+
+Thoughts : After India trip on emergency, restarted the challenge again from where I stoped at 11th day. Today done lot of progress.
