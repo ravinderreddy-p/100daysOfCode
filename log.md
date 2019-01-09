@@ -77,3 +77,9 @@ Day 12 : January 07,2019.
 Today's Progress : WebHDFS Java Project under progress. This project will push and pull the files b/w hadoop and HFG.(https://github.com/ravinderreddy-p/BigData/tree/master/hadoop-webHDFS)
 
 Thoughts : After India trip on emergency, restarted the challenge again from where I stoped at 11th day. Today done lot of progress.
+
+Day 13 : January 09,2019.
+
+Today's Progress: WebHDFS Java project continuition of project.
+
+Thoughts : Today I tired with office work with SQOOP activities and accesses, so have less energy to do now :(
